@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import Menu from "./Menu";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const [items, setItems] = useState(Menu);
@@ -45,9 +46,9 @@ const Portfolio = () => {
               </div>
               <span className="work_category">{category}</span>
               <h3 className="work_title">{title}</h3>
-              <a href={link} className="work_button">
+              <Link to={link} className="work_button">
                 <i className="icon-link work_button-icon"></i>
-              </a>
+              </Link>
             </div>
           );
         })}

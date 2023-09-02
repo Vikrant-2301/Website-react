@@ -1,0 +1,10 @@
+.fullscreen {
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.homebtn {
+    background: transparent;
+}

@@ -11,7 +11,7 @@ const Menu = [
     image: Work1,
     title: "Shopping Complex",
     category: "Revit",
-    link: "https://heyzine.com/flip-book/261815f265.html",
+    link: "/flipbook",
   },
   {
     id: 2,
