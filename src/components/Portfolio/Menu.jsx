@@ -1,7 +1,7 @@
-import Work1 from "../../assets/My project-1.png";
-import Work2 from "../../assets/CAD-1.png";
-import Work3 from "../../assets/work-3.svg";
-import Work4 from "../../assets/work-4.svg";
+import Work1 from "../../assets/Shopping.svg";
+import Work2 from "../../assets/Motel.svg";
+import Work3 from "../../assets/CAD-1.svg";
+import Work4 from "../../assets/LANDSCAPING.svg";
 import Work5 from "../../assets/BMC1.png";
 import Work6 from "../../assets/work-6.svg";
 
@@ -16,38 +16,38 @@ const Menu = [
   {
     id: 2,
     image: Work2,
-    title: "Guest App Walkthrough Screens",
+    title: "Motel",
     category: "Cad",
-    link: "https://www.youtube.com",
+    link: "/flipbook",
   },
   {
     id: 3,
     image: Work3,
-    title: "Delivery App Wireframe",
+    title: "Cad",
     category: "Render",
-    link: "https://lpulive.lpu.in/",
+    link: "/flipbook",
   },
   {
     id: 4,
     image: Work4,
-    title: "Onboarding Motivation",
+    title: "Landscaping",
     category: "Revit",
-    link: "https://www.google.com/maps",
+    link: "/flipbook",
   },
-  {
-    id: 5,
-    image: Work5,
-    title: "iMac Mockup Design",
-    category: "Construction",
-    link: "https://www.google.com/maps",
-  },
-  {
-    id: 6,
-    image: Work6,
-    title: "Game Store App Concept",
-    category: "Cad",
-    link: "https://www.google.com/maps",
-  },
+  // {
+  //   id: 5,
+  //   image: Work5,
+  //   title: "iMac Mockup Design",
+  //   category: "Construction",
+  //   link: "/flipbook",
+  // },
+  // {
+  //   id: 6,
+  //   image: Work6,
+  //   title: "Game Store App Concept",
+  //   category: "Cad",
+  //   link: "",
+  // },
   // {
   //   id: 7,
   //   image: Work6,
