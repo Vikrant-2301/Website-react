@@ -2,6 +2,11 @@
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
 }
+.about_img{
+    border-radius: 50%;
+    scale: 1.2;
+}
+
 
 .about_data{
     padding: 1.875rem;

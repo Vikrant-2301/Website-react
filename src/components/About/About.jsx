@@ -1,8 +1,7 @@
 import React from "react";
 import "./About.css";
-import Image from "../../assets/avatar-2.svg";
-import CV from "../../assets/NEW RESUME.pdf";
-import AboutBox from "./AboutBox";
+import Image from "../../assets/MY_AB.png";
+import CV from "../../assets/RESUME.pdf";
 
 const About = () => {
   return (
@@ -33,7 +32,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">Autodesk AutoCAD</h3>
-                <span className="skills_number">90%</span>
+                {/* <span className="skills_number">90%</span> */}
               </div>
 
               <div className="skills_bar">
@@ -44,7 +43,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">Autodesk Revit</h3>
-                <span className="skills_number">80%</span>
+                {/* <span className="skills_number">80%</span> */}
               </div>
 
               <div className="skills_bar">
@@ -55,7 +54,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">Adobe Photoshop</h3>
-                <span className="skills_number">60%</span>
+                {/* <span className="skills_number">60%</span> */}
               </div>
 
               <div className="skills_bar">
@@ -66,7 +65,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">Lumion</h3>
-                <span className="skills_number">80%</span>
+                {/* <span className="skills_number">80%</span> */}
               </div>
 
               <div className="skills_bar">
@@ -77,7 +76,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">SketchUp</h3>
-                <span className="skills_number">70%</span>
+                {/* <span className="skills_number">70%</span> */}
               </div>
 
               <div className="skills_bar">
@@ -88,7 +87,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">Navisworks</h3>
-                <span className="skills_number">70%</span>
+                {/* <span className="skills_number">70%</span> */}
               </div>
 
               <div className="skills_bar">
@@ -99,7 +98,7 @@ const About = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">MS Office</h3>
-                <span className="skills_number">90%</span>
+                {/* <span className="skills_number">90%</span> */}
               </div>
 
               <div className="skills_bar">

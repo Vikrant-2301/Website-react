@@ -1,4 +1,4 @@
-import Work1 from "../../assets/COMPLEX.svg";
+import Work1 from "../../assets/My project-1.png";
 import Work2 from "../../assets/CAD-1.png";
 import Work3 from "../../assets/work-3.svg";
 import Work4 from "../../assets/work-4.svg";
@@ -11,7 +11,7 @@ const Menu = [
     image: Work1,
     title: "Shopping Complex",
     category: "Revit",
-    link: "https://www.google.com/maps",
+    link: "https://heyzine.com/flip-book/261815f265.html",
   },
   {
     id: 2,

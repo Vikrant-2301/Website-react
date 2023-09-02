@@ -28,7 +28,7 @@ const HeaderSocials = () => {
       </a>
 
       <a
-        href="https://medium.com/@vikrant.yadav1401"
+        href="https://medium.com/@vikrant-yadav"
         className="home_socials-link"
         target="_blank"
       >

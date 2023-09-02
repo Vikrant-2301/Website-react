@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/Home';
@@ -7,13 +6,16 @@ import Services from './components/Services/Services';
 import Resume from './components/Resume/Resume';
 import Portfolio from './components/Portfolio/Portfolio';
 import Pricing from './components/Pricing/Pricing';
-import Testimonials from './components/Testimonials/Testimonials';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import Preloader from './components/Preloader/Preloader';
+// import Flipbook from './Flipbok/Flipbook';
+
 
 const App=()=>{
   return (
     <>
+    <Preloader/>
     <Sidebar/>
     <main className='main'>
       <Home/>
@@ -23,6 +25,7 @@ const App=()=>{
       <Portfolio/>
       <Pricing/>
       {/* <Testimonials/> */}
+      {/* <Flipbook/> */}
       <Blog/>
       <Contact/>
     </main>
