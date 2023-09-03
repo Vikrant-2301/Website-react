@@ -18,10 +18,8 @@ const Portfolio = () => {
       <h2 className="section_title">Recent Works</h2>
 
       <div className="work_filters">
-        <span className="work_item" onClick={() => setItems(Menu)}>
-          Everything
-        </span>
-        <span className="work_item" onClick={() => filterItem("Construction")}>
+        <span className="work_item" onClick={() => setItems(Menu)}></span>
+        {/* <span className="work_item" onClick={() => filterItem("Construction")}>
           Building Construction
         </span>
         <span className="work_item" onClick={() => filterItem("Cad")}>
@@ -32,7 +30,7 @@ const Portfolio = () => {
         </span>
         <span className="work_item" onClick={() => filterItem("Render")}>
           Renderings
-        </span>
+        </span> */}
       </div>
 
       <div className="work_container grid">

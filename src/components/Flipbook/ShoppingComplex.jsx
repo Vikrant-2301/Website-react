@@ -2,13 +2,12 @@ import React from "react";
 import "./Flipbook.css";
 import { Link } from "react-router-dom";
 
-const Flipbook = () => {
+const ShoppingComplex = () => {
   return (
     <div className="fullscreen">
       <iframe
         title="Flipbook"
         allowFullScreen="true"
-        scrolling="no"
         className="fp-iframe"
         src="https://heyzine.com/flip-book/261815f265.html"
         style={{
@@ -25,4 +24,4 @@ const Flipbook = () => {
   );
 };
 
-export default Flipbook;
+export default ShoppingComplex;

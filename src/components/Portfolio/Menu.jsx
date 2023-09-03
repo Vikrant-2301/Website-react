@@ -11,7 +11,7 @@ const Menu = [
     image: Work1,
     title: "Shopping Complex",
     category: "Revit",
-    link: "/flipbook",
+    link: "/ShoppingComplex",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const Menu = [
     image: Work4,
     title: "Landscaping",
     category: "Revit",
-    link: "/flipbook",
+    link: "/Landscaping",
   },
   // {
   //   id: 5,
